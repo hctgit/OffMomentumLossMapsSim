@@ -1,0 +1,13 @@
+universe = vanilla
+executable = $(filename)
+output = $Fp(filename)$Fn(filename).out
+error = $Fp(filename)$Fn(filename).err
+log = $Fp(filename)$Fn(filename).log
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT_OR_EVICT
+# files to copy back are specified in the executable
+transfer_output_files = ""
+SendCredential = True
+request_disk = 25000000
++JobFlavour = "tomorrow"
+queue filename matching files */*.job

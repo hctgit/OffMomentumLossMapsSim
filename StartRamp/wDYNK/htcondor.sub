@@ -1,0 +1,12 @@
+universe = vanilla
+executable = $(filename)
+output = $Fp(filename)$Fn(filename).out
+error = $Fp(filename)$Fn(filename).err
+log = $(ClusterId).log
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT_OR_EVICT
+# files to copy back are specified in the executable
+transfer_output_files = ""
+request_disk = 50000000
++JobFlavour = "testmatch"
+queue filename from jobs.txt
