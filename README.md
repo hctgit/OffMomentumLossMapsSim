@@ -9,9 +9,7 @@ In each scenario, there are two ways of performing the simulation:
   1) Using DYNK module for energy or RF frequency trim.
   2) Using a pencil beam directly sample at the momentum primary collimator.
 
-## Files included in the repository
-
-### Start of the ramp
+## Files included in the repositories
 
   - clean_input: contains lattice related input
     - fort.2: actual lattice. Notice that accelerating cavities (elements acsca) are included and set with non-zero parameters. If cavities are not included in fort.2 the ramp or frequency trim would not work. If you need to include them you need to generate againg the file fort.2 from MADX including the "cavall" argument when executing the sixtrack conversion.
@@ -24,5 +22,10 @@ In each scenario, there are two ways of performing the simulation:
     - LMevo.py: plots the evolution of losses in both TCPs (IR3 and IR7) as a function of the frequency shift.
   - sixtrack_batch.sh: submission script
   - htcondor.sub: submission script options
-    
-### Cleaning
+
+## Instructions for running simulations in different scenarios
+
+### 1.1 Start of the ramp using DYNK
+### 1.2 Start of the ramp using pencil beam
+### 2.1 Off-momentum cleaning using DYNK
+### 1.2 Off-momentum cleaning using pencil beam
