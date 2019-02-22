@@ -19,6 +19,10 @@ In each scenario, there are two ways of performing the simulation:
     - CollDB: Collimator Database
     - CollPositon: Collimator position file
     - Survey: Survey file.
-    -
+  - analysis: contains the basic analysis Python scripts for postprocessing and generating the lossmaps 
+    - lossmap.py: generates the loss map.
+    - LMevo.py: plots the evolution of losses in both TCPs (IR3 and IR7) as a function of the frequency shift.
+  - sixtrack_batch.sh: submission script
+  - htcondor.sub: submission script options
     
 ### Cleaning
