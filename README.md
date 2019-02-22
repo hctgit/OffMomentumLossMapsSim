@@ -26,6 +26,8 @@ In each scenario, there are two ways of performing the simulation:
 ## Instructions for running simulations in different scenarios
 
 ### 1.1 Start of the ramp using DYNK
+  - Clone StartRamp directory
+  - 
 ### 1.2 Start of the ramp using pencil beam
 ### 2.1 Off-momentum cleaning using DYNK
-### 1.2 Off-momentum cleaning using pencil beam
+### 2.2 Off-momentum cleaning using pencil beam
