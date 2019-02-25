@@ -17,6 +17,8 @@ In each scenario, there are two ways of performing the simulation:
     - CollDB: Collimator Database
     - CollPositon: Collimator position file
     - Survey: Survey file.
+    - lag_function.py (only Cleaning/wDYNK): Python script for generating the frequency trim to be loaded by DYNK.
+    - generate_distribution (only wPencil): Python script for generating the initial distribution to be tracked when using the pencil beam approach.
   - analysis: contains the basic analysis Python scripts for postprocessing and generating the lossmaps 
     - lossmap.py: generates the loss map.
     - LMevo.py: plots the evolution of losses in both TCPs (IR3 and IR7) as a function of the frequency shift.
