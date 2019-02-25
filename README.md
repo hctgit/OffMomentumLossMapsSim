@@ -12,7 +12,7 @@ In each scenario, there are two ways of performing the simulation:
 ## Files included in the repositories
 
   - clean_input: contains lattice related input
-    - fort.2: actual lattice. Notice that accelerating cavities (elements acsca) are included and set with non-zero parameters. If cavities are not included in fort.2 the ramp or frequency trim would not work. If you need to include them you need to generate againg the file fort.2 from MADX including the "cavall" argument when executing the sixtrack conversion.
+    - fort.2: actual lattice. Notice that accelerating cavities (elements acsca) are included and set with non-zero parameters. If cavities are not included in fort.2 the ramp or frequency trim would not work. If you need to include them you need to generate againg the file fort.2 from MADX including the "cavall" argument when executing the sixtrack conversion. The current example is for 2015 lattice at injection (StartRamp) and Flat Top (Cleaning).
     - fort.3: the tracking option files. It must include the collimation block and the DYNK module for triming the parameters.
     - CollDB: Collimator Database
     - CollPositon: Collimator position file
