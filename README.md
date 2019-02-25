@@ -29,5 +29,17 @@ In each scenario, there are two ways of performing the simulation:
   - Clone StartRamp directory
   -
 ### 1.2 Start of the ramp using pencil beam
+
+  - In order to perform the simulation correctly, the beam distribution must be sampled directly a the IR3 primary collimator. To do that one can cycle the optics to obtain a fort.2 with TCP.6 first element.
+  - The beam distribution is externaly generated (script included) and the energy of the reference particle must be adjusted so the impact parameter on the TCP is about 1um.
+  - Run the simulations normally as regular collimation simulations.
+  - The analysis script is cycled in such a way that the lossmap starts at the usual location (IP1).
+
 ### 2.1 Off-momentum cleaning using DYNK
+
 ### 2.2 Off-momentum cleaning using pencil beam
+
+  - In order to perform the simulation correctly, the beam distribution must be sampled directly a the IR3 primary collimator. To do that one can cycle the optics to obtain a fort.2 with TCP.6 first element.
+  - The beam distribution is externaly generated (script included) and the energy of the reference particle must be adjusted so the impact parameter on the TCP is about 1um.
+  - Run the simulations normally as regular collimation simulations.
+  - The analysis script is cycled in such a way that the lossmap starts at the usual location (IP1).
