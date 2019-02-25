@@ -131,6 +131,7 @@ clhc = 26658.8832 # [m]
 # NB: in case of B4, do not put here the value in the B1 ref sys
 s0 =  6487.67*0.0         # [m]
 
+# This number indicates the turn at which losses in collimators and aperture are recorded for generating the loss map.
 turnCut = 3800
 #turnCut = 4100
 
