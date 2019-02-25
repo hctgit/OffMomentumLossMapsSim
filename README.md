@@ -1,4 +1,4 @@
-# Off-Momentum Lossmaps Simulation
+# Off-Momentum LossMap Simulation
 This repository contains the basic tools and files to simulate off-momentum loss maps using SixTrack in two different scenarios:
 
   1) Off-momentum losses at the start of the ramp
